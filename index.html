@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Hand Particles</title>
+</head>
+
+<body>
+
+  <div id="ui-layer">
+    <h1>Particle Engine</h1>
+    <div class="stat-row">
+      <span>Shape</span>
+      <span id="shape-name" class="stat-value">Sphere</span>
+    </div>
+    <div class="stat-row">
+      <span>Particles</span>
+      <span class="stat-value">20,000</span>
+    </div>
+
+    <div class="controls">
+      <div class="control-item">
+        <span class="icon">👋</span>
+        <span><strong>Hover</strong> to Attract</span>
+      </div>
+      <div class="control-item">
+        <span class="icon">👌</span>
+        <span><strong>Pinch</strong> to Change Shape</span>
+      </div>
+    </div>
+  </div>
+
+  <div id="loading">
+    <div class="spinner"></div>
+    <div class="loading-text">Initializing Vision AI...</div>
+  </div>
+
+  <video id="video-input" playsinline></video>
+
+  <script type="module" src="/main.js"></script>
+</body>
+
+</html>
