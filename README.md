@@ -32,4 +32,4 @@ A futuristic, hand-controlled 3D particle system. Move your hand to interact wit
 - **Vite**: Modern frontend tooling.
 
 
-Aayush Kumar Singh
+By Aayush Kumar Singh
